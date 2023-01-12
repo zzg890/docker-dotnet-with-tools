@@ -19,3 +19,5 @@ RUN dotnet tool install --global dotnet-counters
 RUN dotnet tool install --global dotnet-dump
 RUN dotnet tool install --global dotnet-trace
 ENV PATH="$PATH:/root/.dotnet/tools"
+ENV ASPNETCORE_URLS="http://+:80"
+ENV DOTNET_RUNNING_IN_CONTAINER="true"
