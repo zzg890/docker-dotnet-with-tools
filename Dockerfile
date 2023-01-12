@@ -18,3 +18,4 @@ RUN apt-get -y install postgresql-14
 RUN dotnet tool install --global dotnet-counters
 RUN dotnet tool install --global dotnet-dump
 RUN dotnet tool install --global dotnet-trace
+ENV PATH="$PATH:/root/.dotnet/tools"
