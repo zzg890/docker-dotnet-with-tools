@@ -11,6 +11,7 @@ RUN apt-get install -y iputils-ping
 RUN apt-get install -y lsb-release
 RUN apt-get install -y wget
 RUN apt-get install -y procps
+RUN apt-get install -y openssh-client
 RUN dotnet tool install --global dotnet-counters
 RUN dotnet tool install --global dotnet-dump
 RUN dotnet tool install --global dotnet-trace
